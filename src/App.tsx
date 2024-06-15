@@ -14,10 +14,10 @@ const App: React.FC = () => {
       <Nav />
       <div className="container mx-auto">
         <Routes>
-          <Route path="/" Component={Home} />
-          <Route path="/about" Component={About} />
-          <Route path="/projects" Component={Projects} />
-          <Route path="/contact" Component={Contact} />
+          <Route path="/my-portfolio/" Component={Home} />
+          <Route path="/my-portfolio/about" Component={About} />
+          <Route path="/my-portfolio/projects" Component={Projects} />
+          <Route path="/my-portfolio/contact" Component={Contact} />
         </Routes>
       </div>
     </Router>
